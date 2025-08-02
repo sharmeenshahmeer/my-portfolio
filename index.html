@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>My portfolio </title>
+    <style>
+        :root {
+            --bg: #121212;
+            --text: #e0e0e0;
+            --primary: #1f2937;
+            --secondary: #ff6f61;
+            --card: rgba(255, 255, 255, 0.05);
+            --glass: rgba(255, 255, 255, 0.1);
+            --border: rgba(255, 255, 255, 0.15);
+        }
+
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: linear-gradient(135deg, #1e1e1e, #121212);
+            color: var(--text);
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+            position: relative;
+            overflow: hidden;
+        }
+
+
+
+        .header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10%;
+            object-fit: cover;
+            border: 3px solid white;
+            z-index: 1;
+        }
+
+
+
+        .title-text h2 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            opacity: 0.8;
+            color: #ddd;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px dashed #444;
+            margin: 2rem 0;
+        }
+
+        h2,
+        h3 {
+            margin-top: 2rem;
+            color: var(--secondary);
+        }
+
+        .section {
+            background: var(--card);
+            backdrop-filter: blur(10px);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+            transition: transform 0.3s ease;
+        }
+
+        a {
+            color: var(--secondary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="my photo.png" alt="Profile Photo">
+        <div class="title-text">
+            <h1>Sharmeen Shahmeer</h1>
+            <h2>Frontend Web Developer</h2>
+        </div>
+    </div>
+    <hr>
+    <h2>About me </h2>
+    <p> Hi,I am Sharmeen. I am an enthusiastic web development student with a passion for bringing designs to life
+        through code.
+        I enjoy building basic websites and exploring how the web works behind the scenes. I am currently focused on
+        frontend development
+        and aim to contribute to meaningful, real-world projects
+    </p>
+    <h3>My skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <h3>My projects</h3>
+    <ol>
+        <li>Simple Calculator</li>
+        <li>Portfolio Website</li>
+        <li>Bookmark Manager</li>
+        <li>Recipe Page</li>
+    </ol>
+    <h3>contacts</h3>
+    <p> email: <a href="mailto:sharmeenshahmeer@gmail.com">sharmeenshahmeer@gmail.com</a> <br>
+        github: <a href="" target="_blank">https://github.com/sharmeenshahmeer</a>
+        <br>
+        linkedin: <a href="https://www.linkedin.com/in/sharmeen-shahmeer-b827ba374/"
+            target="_blank">https://www.linkedin.com/sharmeenshahmeer</a>
+    </p>
+
+</body>
+
+</html>
